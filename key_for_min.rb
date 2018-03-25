@@ -4,6 +4,8 @@
 def key_for_min_value(name_hash)
   name_hash.collect do | product, value|
     value 
+    product
+  
   end 
 end
   
